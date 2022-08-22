@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: #fef9f9;
+}
+
+.app {
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  flex: 1;
+  height: 1.5em;
+  padding: 2px;
+  font-size: medium;
+  margin: 15px;
+  outline-color: #fda6a6;
+  border: 1px solid #893030;
+  border-radius: 0.5em;
+}
+
+.form button {
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background: #ddc4c4;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbecec;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.todo {
+  background: #e9d6d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px 10px;
+  border-radius: 5px;
+}
+
+.todo p {
+  flex: 1;
+  margin-left: 3px;
+}
+
+.todo_action button {
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background: #ddc4c4;
+}
+
+.error {
+  margin: 5px 20px;
+  background: #fda6a6;
+  border: 1px solid #c84e4e;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error p {
+  color: #c84e4e;
+}
+
+h3 {
+  text-align: center;
+  color: #5d5a5a;
+  text-transform: uppercase;
+}
